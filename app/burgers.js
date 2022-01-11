@@ -1,0 +1,58 @@
+export default [
+    {
+        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
+        title: "smash   burguer (bacon-cheddaar)",
+        popularity: 5,
+        rating: 5,
+        deliveryTime: "15-25 min",
+        deliveryPrice: 2,
+        Dietary: "",
+    },
+    {
+        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
+        title: "smash   burguer (bacon-cheddaar)",
+        popularity: 5,
+        rating: 5,
+        deliveryTime: "15-25 min",
+        deliveryPrice: 2,
+        Dietary: "",
+    },
+    {
+        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
+        title: "smash   burguer (bacon-cheddaar)",
+        popularity: 5,
+        rating: 5,
+        deliveryTime: "15-25 min",
+        deliveryPrice: 2,
+        Dietary: "",
+    },
+    {
+        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
+        title: "smash   burguer (bacon-cheddaar)",
+        popularity: 5,
+        rating: 5,
+        deliveryTime: "15-25 min",
+        deliveryPrice: 2,
+        Dietary: "",
+    },
+    {
+        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
+        title: "smash   burguer (bacon-cheddaar)",
+        popularity: 5,
+        rating: 5,
+        deliveryTime: "15-25 min",
+        deliveryPrice: 2,
+        Dietary: "",
+    },
+    {
+        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
+        title: "smash   burguer (bacon-cheddaar)",
+        popularity: 5,
+        rating: 5,
+        deliveryTime: "15-25 min",
+        deliveryPrice: 2,
+        Dietary: "",
+    },
+
+
+]

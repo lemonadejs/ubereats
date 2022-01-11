@@ -1,0 +1,67 @@
+.japp .page {
+    padding-top: calc(45px + var(--safe-area-top)) !important;
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.icon i {
+    color: #000;
+}
+
+.delivery-toggle {
+    background-color: #dddddd;
+    padding: 10px 3px 10px 3px;
+    border-radius: 20px;
+}
+
+.delivery-toggle label{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    background-color: #dddddd;
+    padding: 10px 6px 10px 3px;
+    border-radius: 20px;
+}
+
+.leftmenu {
+    width: 20%;
+    padding: 45px 3px 10px 35px;
+    border: 1px #000 solid;
+    font-size: 17px;
+}
+
+.price-range {
+    display: flex;
+    flex-direction: row;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.burgers-list {
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    border: 1px #000 solid;
+    width: 100%;
+}
+
+.burgers-list div {
+    width: 150px;
+}
+
+.burgers-list div img{
+    width: 450px;
+
+}

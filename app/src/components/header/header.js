@@ -16,18 +16,31 @@
     return function() {
         var self = this;
 
+        self.onload = function() {
+            var list = lemonade.get('search');
+
+            self.input = list;
+
+        }
+
+        self.clearText = function() {
+            self.input = '';
+        }
+        
         var Localization = function() {
             var self = this;
 
             var template =`<>
                 <div class='location'> 
-                    <i class="icon material-icons" style="color: #000; font-size: 25px;">location_on</i>
+                    <i class="icon material-icons" style="color: #000; font-size: 20px;">location_on</i>
                     <span>{{self.local}} - Now</span>
                 </div>
             </>`;
 
             return lemonade.element(template, self);
         }
+
+        
 
         var template = `<>
             <div class='icon'>
@@ -40,19 +53,25 @@
 
             <div class='delivery-toggle'>
                 <label>Delivery</label>
-                <label style="background-color: #dddddd;">Pickup</label>
+                <label style="background-color: #e7e7e7;">Pickup</label>
             </div>
 
             <Localization local="{{self.local}}"/>
 
-            <div class="">
-            <i class="icon material-icons" style="position: absolute; color: #000; font-size: 25px; padding: 5px 0 0 5px;">search</i>
-            <input type="text" placeholder="Food, groceries, drinks, etc"/>
+            <div class="header-search">
+                <i class="icon material-icons" style="position: absolute; color: #000; font-size: 25px; padding: 5px 0 0 5px;">search</i>
+                <input oninput="self.input(this.value)" type="text" placeholder="Food, groceries, drinks, etc"/>
+                <label onclick="self.clearText">Clear</label>    
             </div>
 
-            <input type="button" value="cart"/>
-            
-            <a href="login" style="background-color: #dddddd;" >Sign in</a>
+            <div class="right-buttons">
+                <button class="cart-button">
+                    <i class="icon material-icons" style="color: #fff; font-size: 17px;">shopping_cart</i>
+                    <p>Cart - 0</p>
+                </button>
+                
+                <a href="login" class="sign-in">Sign in</a>
+            </div>
         </>`;
 
         return lemonade.element(template, self, { Localization });

@@ -7,20 +7,24 @@ export default function Burgerlist() {
     var template = `
     <>
         <div class="burgers-list">
-            <List data={{self.data}} search="" pagination="100">
-                <div>
+            <List @ref="self.list" data={{self.data}} search="false" pagination="100">
+                <div class="burgers-list-content">
                     <img src="{{self.img}}" />
-                    <div>
-                        {{self.title}}
-                        {{self.rating}}
+                    <div class="burgers-list-subcontent">
+                        <span>{{self.title}}</span>
+                        <span class="rating">{{self.rating}}</span>
                     </div>
-                    <div>
-                        {{self.deliveryPrice}}
+                    <div class="burgers-list-subcontent">              
+                        <span class="info">£{{self.deliveryPrice}} Delivery Free - {{self.deliveryTime}}</span>
                     </div>
                 </div>
             </List>
         </div>
     </>`;
+
+    lemonade.set('search', function (s) {
+        self.list.input = s;
+    });
 
     return lemonade.element(template, self, { List });
 }

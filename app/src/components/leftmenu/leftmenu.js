@@ -16,21 +16,28 @@
     return function() {
         var self = this;
 
-        var template = `<>
+        var template = `
+        <>
             <h2>"Burgers"</h2>
             <p>160+ Results for "Burgers"</p>
 
-            <input type="checkbox"/>
-            <label>Sort</label>
-            <div class='sort'>
+            <div class="sort-checkbox">
+                <input type="checkbox" @ref="self.sortCheckbox"/>
+                <label>Sort</label>
+                <i class="icon material-icons">expand_more</i>
+            </div>
+            <div class='sort' @ref="self.sort">
                 <input type="radio" name="sort"> <label>Picked for you (default)</label><br>
                 <input type="radio" name="sort"> <label>Most popular)</label><br>
                 <input type="radio" name="sort"> <label>Rating</label><br>
                 <input type="radio" name="sort"> <label>Delivery time</label><br>
             </div><br>
 
-            <input type="checkbox"/>
-            <label>Price range</label>
+            <div class="sort-checkbox">
+                <input type="checkbox"/>
+                <label>Price range</label>
+                <i class="icon material-icons">expand_more</i>
+            </div>
             <div class='price-range'>
                 <input type="radio" name="sort"> <label>£</label><br>
                 <input type="radio" name="sort"> <label>££</label><br>
@@ -38,14 +45,20 @@
                 <input type="radio" name="sort"> <label>££££</label><br>
             </div><br>
 
-            <input type="checkbox"/>
-            <label>Max delivery free</label>
+            <div class="sort-checkbox">
+                <input type="checkbox"/>
+                <label>Max delivery free</label>
+                <i class="icon material-icons">expand_more</i>
+            </div>
             <div class='delivery-free'>
                 <input type="range"/>
             </div><br>
 
-            <input type="checkbox"/>
-            <label>Dietary</label>
+            <div class="sort-checkbox">
+                <input type="checkbox"/>
+                <label>Dietary</label>
+                <i class="icon material-icons">expand_more</i>
+            </div>
             <div class='dietary'>
                 <input type="checkbox" name="sort"> <label>Vegetarian</label><br>
                 <input type="checkbox" name="sort"> <label>Vegan</label><br>

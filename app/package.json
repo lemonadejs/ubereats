@@ -9,6 +9,7 @@
     "@lemonadejs/list": "^1.1.0",
     "@lemonadejs/router": "^3.1.0",
     "css-loader": "^6.5.1",
+    "google-maps": "^4.3.3",
     "jsuites": "^4.9.2",
     "lemonadejs": "^2.1.12",
     "style-loader": "^3.3.1",

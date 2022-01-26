@@ -1,18 +1,20 @@
 <div class="navbar" style="height: 30px; box-shadow: none; position: relative; margin-bottom: 3%; width: 98%;">
     <div class="navbar-container">
         <Header
-        local='W7 1LX' />
+        local='W7 1LX' 
+        parent='{{self}}' />
     </div>
 </div>
 <div class="body">
-    <div class="leftmenu">
-        <Leftmenu />
+    <div class="leftmenu" @ref="self.leftmenu">
+        <Leftmenu/>
     </div>
-    <div>
+    <div @ref="self.catalog" style="width: 1350px;">
         <Catalog data={{self.data}} />
     </div>
     <!-- <Map style="display: none;" /> -->
-    <div id="map" style="display: none;"></div>
-<Footer />
+    <div @ref="self.map" style="display:none;">
+        <Map/>
+    </div>
 </div>
 <script></script>

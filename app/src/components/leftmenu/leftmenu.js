@@ -17,6 +17,7 @@ export default function Leftmenu() {
         self[icon] = !self[visibility]?'expand_more':'expand_less';
     }
 
+
     var template = `
     <>
         <h2>"Burgers"</h2>
@@ -63,6 +64,7 @@ export default function Leftmenu() {
             <label>
                 <input type="radio" name="price-range" class="price-range-input"/>
                 <div class="price-range-div">££</div>
+            </label>
             <label>
                 <input type="radio" name="price-range" class="price-range-input"/>
                 <div class="price-range-div">£££</div>

@@ -3,10 +3,15 @@ import lemonade from 'lemonadejs';
 export default function Header() {
     var self = this;
 
+    self.divLeftmenu = null;
+    self.divMap = null;
+
     self.onload = function() {
         var list = lemonade.get('search');
         self.input = list;
 
+        self.divLeftmenu = self.parent.leftmenu;
+        self.divMap = self.parent.map;
     }
 
     self.clearText = function() {
@@ -16,13 +21,15 @@ export default function Header() {
     self.deliveryMode = function() {
         self.deliveryButton.style.background = '#fff';
         self.pickupButton.style.background = '';
-
-        console.log(Leftmenu);
+        self.divLeftmenu.style.display = 'block';
+        self.divMap.style.display = 'none';
     }
 
     self.pickupMode = function() {
         self.deliveryButton.style.background = '';
         self.pickupButton.style.background = '#fff';
+        self.divLeftmenu.style.display = 'none';
+        self.divMap.style.display='block';
     }
     
     var Localization = function() {

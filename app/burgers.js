@@ -1,7 +1,7 @@
 export default [
     {
         img: "https://i.ibb.co/Q8MJc4v/63125f63-5cd8-4667-bc65-ba55b9823f1d.jpg",
-        title: "smash   burguer (bacon-cheddaar)",
+        title: "Simple burger",
         popularity: 5,
         rating: 5,
         deliveryTime: "15-25 min",
@@ -10,7 +10,7 @@ export default [
     },
     {
         img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
-        title: "smash   burguer (bacon-cheddaar)",
+        title: "Smash burguer (bacon-cheddaar)",
         popularity: 5,
         rating: 4,
         deliveryTime: "10-20 min",
@@ -18,8 +18,8 @@ export default [
         Dietary: "",
     },
     {
-        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
-        title: "smash   burguer (bacon-cheddaar)",
+        img: "https://media-cdn.tripadvisor.com/media/photo-s/17/30/22/de/burgers.jpg",
+        title: "Mega-burguer bacon",
         popularity: 5,
         rating: 4,
         deliveryTime: "20-30 min",
@@ -27,8 +27,8 @@ export default [
         Dietary: "",
     },
     {
-        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
-        title: "smash   burguer (bacon-cheddaar)",
+        img: "https://media-cdn.tripadvisor.com/media/photo-s/17/82/ac/7e/excellent-ingredients.jpg",
+        title: "Super burguer",
         popularity: 5,
         rating: 3,
         deliveryTime: "10-25 min",
@@ -36,8 +36,8 @@ export default [
         Dietary: "",
     },
     {
-        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
-        title: "smash   burguer (bacon-cheddaar)",
+        img: "https://media-cdn.tripadvisor.com/media/photo-s/17/a6/22/9d/aqui-nossos-burgers-coloridos.jpg",
+        title: "Rainbow burgers",
         popularity: 5,
         rating: 2,
         deliveryTime: "15-25 min",
@@ -45,8 +45,8 @@ export default [
         Dietary: "",
     },
     {
-        img: "https://s2.glbimg.com/9zc9T-9LwXwKG_8XOq_9EF67bSQ=/620x455/e.glbimg.com/og/ed/f/original/2021/04/30/receita-hamburguer-smash-burguer-bacon-cheddaar.jpg",
-        title: "smash   burguer (bacon-cheddaar)",
+        img: "https://uploads.metropoles.com/wp-content/uploads/2019/01/24181027/burguer-colorido2.jpg",
+        title: "Rainbow burgers 2",
         popularity: 5,
         rating: 5,
         deliveryTime: "15-25 min",
